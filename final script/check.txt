@@ -1,1 +1,6 @@
-#This is where the intermediate output gets stored
+(( NP(क्रिया NN)(में PSP))क्रिया
+ (VP (VBZ takes))#
+ (PP (IN around))#
+ (NP (CD 8-10) (NNS hours))hours
+ (. .))#
+
