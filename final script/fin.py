@@ -6,7 +6,10 @@ inp2=open('hin_fin.txt', 'r')
 giza1=open('eng-hin.txt', 'r')
 giza2=open('hin-eng.txt', 'r')
 file=open('check.txt', 'r+')
+file.truncate(0)
 ans=open('out.txt', 'r+')
+ans.truncate(0)
+
 
 #open text files
 findEH=[l1 for l1 in giza1.read().split('\n')]
